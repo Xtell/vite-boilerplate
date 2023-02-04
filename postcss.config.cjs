@@ -8,8 +8,6 @@ module.exports = {
     nested(),
     autoprefixer(),
     postCssPresetEnv(),
-    customMedia({
-      importFrom: "./src/css/media.pcss"
-    }),
+    customMedia({}),
   ]
 }
